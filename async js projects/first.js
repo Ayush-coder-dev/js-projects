@@ -14,7 +14,7 @@ let randomcolor = () =>{
 } ; 
 let interval;
 let changecolor = () =>{
-    if(!interval){
+    if(!interval){      //production level  code more compatible
         interval = setInterval(() => {
             body.style.backgroundColor = randomcolor();
             
